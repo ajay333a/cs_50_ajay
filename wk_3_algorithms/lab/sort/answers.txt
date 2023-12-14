@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Took longer time for reversed list compared to sort2
+
+sort2 uses: Merge Sort
+
+How do you know?: Took slightly longer time for sorted list than sort1 but was very fast compared to sort1 with reversed list
+
+sort3 uses: Selection Sort
+
+How do you know?: It takes high amount of time even to sort sorted files
