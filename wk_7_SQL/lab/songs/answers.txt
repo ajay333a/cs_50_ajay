@@ -1,0 +1,7 @@
+
+Based on the average energy, danceability, lodness, speechiness, valence and tempo I would consider the perons aura to be "Purple" or "Yellow"
+because of variability of the parameters of the songs, which vary highly from song to song but average is at the middle of the scales with which the
+parameters are calculated.
+
+My calculations may not be true because of the events in the life of person like attending a party may prompt users to play songs with high
+danceability and based on the mood the user may also choose the songs which may differ from day to day.

@@ -1,0 +1,57 @@
+body {
+    background-color: auto;
+    color: auto;
+    font-size: 1rem;
+    font-weight: 333;
+    line-height: 0.5;
+    margin: 10px 15px 0px;
+    text-align: left;
+}
+
+p {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: 10px;
+}
+
+.maintitle {
+    background-color: #fff ;
+    color: auto;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.image_prm {
+    float: left;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.body_text {
+    font-family: "Calibri", Calibri;
+    color: auto;
+    font-size: 1.3rem;
+    line-height: 1;
+    text-align: justify;
+    font-weight: 20px;
+}
+
+.card_text {
+    font-family: "Lato", Lato;
+    color: auto;
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 1;
+}

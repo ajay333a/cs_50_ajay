@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+<h2>HISTORY OF TRANSACTIONS</h2>
+
+
+<table class="table table-striped">
+
+        <thead>
+            <th>Stock Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </thead>
+
+         {% for row in database %}
+            <tr>
+                <td>{{ row["symbol"] }}</td>
+                <td>{{ row["shares"] }}</td>
+                <td>{{ row["price"] }}</td>
+                <td></td>
+            </tr>
+        {% endfor %}
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><b>Total Amount</b></td>
+                <td><b>{{cash}}</b></td>
+            </tr>
+        </tfoot>
+
+    </table>
+{% endblock %}
